@@ -4,12 +4,10 @@ h2 {
   font-family: "The+Nautigal";
 }
 #top {
-  background-image: url(plant\Img\background.jpg);
+  background-image: url(plant\Img\background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding-top: 100px;
-  padding-bottom: 300px;
 }
 
 #transparent {
