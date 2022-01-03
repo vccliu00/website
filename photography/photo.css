@@ -3,11 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pushster&family=The+Nautigal:wght@700&display=swap");
 
-h2 {
-  font-family: "Poppins", sans-serif;
-  /* font-weight: bold; */
-}
-
 h4 {
   font-weight: normal;
 }
@@ -23,7 +18,7 @@ body {
 
 #image-text {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 37%;
   font-family: "The Nautigal";
   font-size: 130px;
@@ -112,7 +107,6 @@ a {
   width: 100%;
   height: auto;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -125,7 +119,6 @@ a {
   transition: 0.5s ease;
   background-color: lightgray;
 }
-
 .cont:hover .overlay {
   opacity: 93%;
 }
@@ -249,7 +242,6 @@ header {
   display: inline-block;
   margin: 0px 20px;
 }
-
 .navlinks li a {
   color: white;
   text-decoration: none;
@@ -257,7 +249,6 @@ header {
   transition: all 0.3s linear 0s;
   text-transform: uppercase;
 }
-
 .navlinks li a:hover {
   color: #7ebcb9;
   padding-bottom: 7px;

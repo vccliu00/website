@@ -81,14 +81,14 @@
     <img class="myImages" id="myImg" src="photography/12.jpg" alt="Japanese bamboo fountain in the Japanese Garden. Portland, Oregon" width="300" height="200">
     <img class="myImages" id="myImg" src="photography/13.jpg" alt="A bee on rose in the Portland Rose Garden. Portland, Oregon" width="300" height="200">
     <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
-    </div>
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
 </div>
 <script>
-
- var modal = document.getElementById('myModal');
+// create references to the modal...
+var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
 var images = document.getElementsByClassName('myImages');
 // the image in the modal
@@ -101,6 +101,7 @@ for (var i = 0; i < images.length; i++) {
   var img = images[i];
   // and attach our click listener for this image.
   img.onclick = function(evt) {
+    console.log(evt);
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
@@ -112,6 +113,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
 </script>  
 <!-- About -->
 <a name="about"></a>
@@ -123,9 +125,8 @@ span.onclick = function() {
 
       <div class="col-sm-8">
         <h3>  Hi! My name is Victoria! </h3>  
-        <h1> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA </h1>
+        <h1> I am a beginner hobbist photographer located in the Portland area who started in early 2021. I mainly take pictures with my Nikon d5500 and my Iphone XS. My favorite things to take pictures of are plants and animals!
+       </h1>
         <!-- <p> My favorite place I've ever traveled is Thailand. Partly because it's so incredibly beautiful and breathtaking and largely because the food is amazing. I enjoy taking pictures of people and nature, and I got into night photography when I took an Imaging the Universe course in college.
         I put this to good use when I visited Alaska and was able to <a href="travel/alaska.jpeg"> photograph the northern lights. </a>  </p> -->
 
