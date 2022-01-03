@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pushster&family=The+Nautigal:wght@700&display=swap");
+
 h2 {
   font-family: "Poppins", sans-serif;
   /* font-weight: bold; */
@@ -433,4 +434,20 @@ li a.contact:hover {
   .modal-content {
     width: 100%;
   }
+}
+#about-image-menu {
+  top: 10px;
+  position: relative;
+}
+h3 {
+  font-size: 50px;
+  color: rgb(233, 229, 229);
+  font-family: "Poppins";
+  /* font-weight: bold; */
+}
+h1 {
+  font-size: 20px;
+  color: rgb(233, 229, 229);
+  font-family: "Poppins";
+  /* font-weight: bold; */
 }
