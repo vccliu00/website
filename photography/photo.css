@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&family=Assistant:wght@400;500&family=Inconsolata:wght@300;400&family=Mallanna&family=Nunito:wght@200;300;400;600&family=Pavanam&family=Raleway&family=Roboto:ital,wght@0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pushster&family=The+Nautigal:wght@700&display=swap");
+h2 {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: bold; */
+}
+
+h4 {
+  font-weight: normal;
+}
+
+body {
+  font-weight: light;
+  font-size: smaller;
+}
+#header-image-menu {
+  top: 10px;
+  position: relative;
+}
+
+#image-text {
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  font-family: "The Nautigal";
+  font-size: 130px;
+  color: rgb(233, 229, 229);
+  transform: translate(-30%, -30%);
+  text-align: center;
+}
+#header-image-menu img {
+  height: 500px;
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+#smaller {
+  font-size: 45px;
+}
+
+#resume_button {
+  border: 1px solid purple;
+  padding: 15px;
+  border-radius: 25px;
+}
+#resume_button:hover {
+  border: 1px solid pink;
+  padding: 15px;
+  border-radius: 25px;
+}
+#me {
+  width: 100%;
+}
+#transparent {
+  background-color: rgba(255, 255, 255, 0.83);
+}
+#top {
+  background-image: url(img/cal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+#field {
+  background-color: seagreen;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#bigger {
+  font-family: "Inconsolata", Helvetica, sans-serif;
+  font-size: 28px;
+}
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
+a {
+  color: #7185c7;
+}
+.space {
+  padding: 22px;
+}
+
+.con {
+  font-weight: bold;
+  color: white;
+}
+
+.contacts {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+#number {
+  background-color: ghostwhite;
+  border: 2px solid lightsteelblue;
+}
+
+.side {
+  color: #a9a9a9;
+}
+
+.backgray {
+  background-color: #435274;
+  display: block;
+}
+
+.cont {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: lightgray;
+}
+
+.cont:hover .overlay {
+  opacity: 93%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  text-transform: lowercase;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.roww {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.columnn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px 4px;
+}
+
+.columnn img {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.card {
+  min-width: 150px;
+}
+
+.card-subtitle {
+  font-style: italic;
+}
+
+.us {
+  float: left;
+  display: block;
+}
+
+.world {
+  float: right;
+  display: block;
+}
+
+.maps {
+  display: block;
+  overflow: hidden;
+}
+
+.ca {
+  display: block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: AstroSpace;
+  src: url(/fonts/AstroSpace.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #212c3b;
+}
+
+header {
+  background-color: #141b25;
+}
+
+.main-nav {
+  height: 90px;
+}
+
+.logo {
+  color: white;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "AstroSpace", sans-serif;
+}
+
+.navlinks {
+  list-style: none;
+  float: right;
+  line-height: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navlinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s linear 0s;
+  text-transform: uppercase;
+}
+
+.navlinks li a:hover {
+  color: #7ebcb9;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #7ebcb9;
+}
+
+li a.contact {
+  background-color: #00adb5;
+  padding: 9px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  border-bottom: none;
+}
+
+li a.contact:hover {
+  background-color: #047e85;
+  color: white;
+  border-bottom: none;
+}
+
+#check {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 90px;
+  margin-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    transition: all 0.5s;
+    right: -100%;
+    background: #222831;
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #check:checked ~ .navlinks {
+    right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .menu-btn {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  .menu-btn:focus {
+    color: blue;
+  }
+}
+
+/* gallery */
+#gallerytxt {
+  font-family: "The Nautigal";
+  font-size: 100px;
+  color: rgb(233, 229, 229);
+}
+
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 5; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 5;
+  -moz-column-gap: 5px;
+  column-count: 5;
+  column-gap: 5px;
+}
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+}
+@media (max-width: 1200px) {
+  #gallery {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+@media (max-width: 1000px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
