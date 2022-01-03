@@ -57,60 +57,54 @@
 </head>
 <body>
     <a name="gallery"></a>
-    <h3 id= "gallerytxt">
-Gallery 
-    </h3>
+    <h3 id= "gallerytxt"> Gallery </h3>
+<!-- Gallery    -->
 <div id="gallery">
-  
+
     <!-- Trigger the Modal -->
-<img id="myImg" src="photography/1.jpg" alt="Snow" style="width:100%;max-width:300px">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+    <img class="myImages" id="myImg" src="photography/1.jpg" alt="Amanita Muscaria in my front yard. Portland, Oregon" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/2.jpg" alt="A drop of water on Japanese maple. Portland, Oregon"
+    width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/3.jpg" alt="Japanese maple leaf on my deck. Portland, Oregon" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/4.jpg" alt="Turkey tail on a log. Portland, Oregon" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/5.jpg" alt="Seed pod. Portland, Oregon" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/6.jpg" alt="On a dock. San Francisco, California" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/7.jpg" alt="Golden Gate Bridge. San Francisco, California" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/8.jpg" alt="Indian Rock. Berkeley, California" width="300" height="200">
+    <img class="myImages" id="myImg" src="photography/9.jpg" alt="Mount Shasta, California" width="300" height="200">
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
 </div>
-    
-   <img src="photography/1.jpg">
-   <img src="photography/2.jpg">
-   <img src="photography/3.jpg">
-   <img src="photography/4.jpg">
-   <img src="photography/5.jpg">
-   <img src="photography/6.jpg">
-   <img src="photography/7.jpg">
-   <img src="photography/8.jpg">
-   <img src="photography/9.jpg">
-  </div>
- 
-  <script>
-      // Get the modal
-var modal = document.getElementById("myModal");
+<script>
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
+ var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
 var modalImg = document.getElementById("img01");
+// and the caption in the modal
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-  </script>
+</script>  
  </body>
 </html>
   </body>
